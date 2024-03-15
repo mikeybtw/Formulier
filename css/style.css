@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,336;1,336&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.header-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    min-height: 10vh;
+    padding-left: 150px;
+    font-size: 30px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul li a {
+    padding: 8px 15px;
+}
+
+.nav-bar {
+    color: #000000;
+    font-family: 'montecarlo', sans-serif;
+    text-decoration: none;
+}
+
+.reservation {
+    background: none;
+    left: 350px;
+    position: relative;
+    font-size: 35px;
+    text-decoration: none;
+    font-family: 'montez', sans-serif;
+    color: #000000;
+}
+
+.reservation:hover {
+    color: #874B4B;
+}
+
+.header-text {
+    left: -1280px;
+    position: relative;
+    color: #874B4B;
+    top: -40px;
+}
+
+.pizza-homepage {
+    width: 100%;
+    left: -350px;
+    position: relative;
+    pointer-events: none;
+    overflow: visible;
+}
+
+.image-text {
+    font-family: 'montserrat', sans-serif;
+    position: relative;
+    top: -250px;
+    color: white;
+    font-size: 50px;
+    left: -130px;
+}
+
+.text-pizza {
+    position: relative;
+    color: #874B4B;
+    top: 250px;
+    font-family: 'montecarlo', sans-serif;
+    padding-left: 290px;
+    font-size: 40px;
+}
+
+.second-header {
+    color: #000000;
+    font-size: 45px;
+    font-family: 'lato', sans-serif;
+    padding-left: 100px;
+    position: relative;
+    top: 200px;
+}
+
+.third-header {
+    color: #000000;
+    font-size: 45px;
+    font-family: 'lato', sans-serif;
+    padding-left: 280px;
+    position: relative;
+    top: 150px;
+}
+
+.intro {
+    color: #000000;
+    font-size: 65px;
+    font-family: 'montecarlo', sans-serif;
+    padding-left: 350px;
+    position: relative;
+    top: 100px;
+}
+
+.line {
+    padding-left: 295px;
+    position: relative;
+    top: -10px;
+}
+
+.introtext {
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    padding-left: -150px;
+    position: relative;
+    top: 30px;
+
+}
+
+.secondintrotext {
+    color: #000000;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    padding-left: 450px;
+    position: relative;
+    top: -190px;
+}
+
+.restaurant {
+    width: 700px;
+    pointer-events: none;
+    position: relative;
+    padding-right: 200px;
+}
+
+.text-image {
+    font-size: 40px;
+    color: #000000;
+    font-family: 'montecarlo', sans-serif;
+    padding-left: 720px;
+    position: relative;
+    top: -350px;
+}
+
+.header-imagetext {
+    font-size: 15px;
+    padding-left: 720px;
+    font-family: 'lato', sans-serif;
+    position: relative;
+    top: -410px;
+}
+
+.small-text {
+    font-size: 10px;
+    font-family: 'lato', sans-serif;
+    padding-left: 720px;
+    position: relative;
+    top: -420px;
+}
+
+.wine {
+    width: 80%;
+    padding-left: -200px;
+}
